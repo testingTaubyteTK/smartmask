@@ -3,4 +3,4 @@ enviroment:
   image: node
   variables:
 workflow:
-
+    - build
