@@ -14,7 +14,7 @@
 
 # build stage
 FROM node:lts-alpine
-RUN npm audit fix
+RUN echo $(ls)
 RUN npm install
 COPY . .
 RUN npm run build
