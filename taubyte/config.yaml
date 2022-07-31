@@ -1,6 +1,6 @@
 version: 1.00
 enviroment:
-  image: taftaf/builder-go:test2
+  image: node
   variables:
 workflow:
 
